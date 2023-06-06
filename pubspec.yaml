@@ -1,0 +1,54 @@
+name: newwatt
+description: A new Flutter project.
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.19.2 <3.0.0'
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  cupertino_icons: ^1.0.2
+  velocity_x: ^3.6.0
+  shared_preferences: ^2.1.0
+  get: ^4.6.5
+  data_table_2: ^2.4.2
+  http: ^0.13.6
+  flutter_svg: ^2.0.5
+  cached_network_image: ^3.2.3
+  google_fonts: ^4.0.4
+  syncfusion_flutter_charts: ^21.1.41
+  flutter_typeahead: ^4.3.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+  flutter_lints: ^2.0.0
+
+
+flutter:
+
+  uses-material-design: true
+  assets:
+    - assets/
+    - assets/pics/
+    - assets/pics/img_9.png
+    - assets/pics/img_10.png
+    - assets/Reach_us_pics/
+    - assets/FAQ_pics/
+    - assets/Videos_pics/
+    - assets/Gallery_pics/
+    - assets/About_US_pics/
+    - assets/avatar/
+    - assets/About_US_pics/img_3.png
+    - assets/Home_page_pics/
